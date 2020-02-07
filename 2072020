@@ -1,0 +1,28 @@
+
+let backgroundColor = 255;
+
+let playerTriangle = {
+  x: 50,
+  y: 50,
+  size: 42
+}
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  
+  function draw() {
+  if (mouseIsPressed) {
+    backgroundColor = round(random(255));
+}
+    background(backgroundColor);
+
+  }
+  playerTriangle.x = mouseX;
+  playerTriangle.y = mouseY;
+
+     rect(playerTriangle.x - playerTriangle.size, playerTriangle.y - playerTriangle.size, playerTriangle.x + playerTriangle.size, playerTriangle.y - playerTriangle.size, playerTriangle.x, playerTriangle.y + playerTriangle.size);
+  }
